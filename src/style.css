@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #00fa9a; /* Cyan Green */
+  padding: 1rem;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Align the navigation to the right */
+}
+
+.navbar-menu li {
+  margin-left: 20px; /* Adjust space between menu items */
+}
+
+.navbar-menu li a {
+  display: block;
+  color: black; /* Bold black text */
+  font-weight: bold;
+  text-align: right; /* Align text inside the links to the right */
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-menu li a:hover {
+  background-color: #575757;
+  color: white;
+}
