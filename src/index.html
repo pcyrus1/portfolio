@@ -26,13 +26,14 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <!-- Top Navigation Bar -->
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-menu">
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -107,13 +108,44 @@
     </section>
     <!-- /END About Section -->
 
+    <!-- **** Skills Section **** -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title dark-blue-text">Proficient Skills</h2>
+        <div class="row">
+          <div class="col-lg-12 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <ul>
+                <p class="mb-4">
+                  <strong>Backend Development:</strong> Proficient in building
+                  RESTful APIs and back-end services using Node.js, Express.js,
+                  and TypeScript for scalable applications.
+                </p>
+                <p class="mb-4">
+                  <strong>Database Management:</strong> Skilled in working with
+                  both SQL (MySQL) and NoSQL databases (MongoDB) for efficient
+                  data storage, retrieval, and optimization.
+                </p>
+                <p class="mb-4">
+                  <strong>Front-end Integration:</strong> Experience with HTML,
+                  CSS, JavaScript, and frameworks like Bootstrap to create
+                  responsive and interactive front-ends that integrate
+                  seamlessly with back-end systems.
+                </p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- **** Projects Section **** -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Notice: each .row is a project -->
+          <!-- Project 1: Personal Portfolio -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
@@ -167,20 +199,20 @@
               </div>
             </div>
           </div>
-          <!-- /END Project -->
+          <!-- /END Project 1 -->
 
-          <!-- Notice: each .row is a project -->
+          <!-- Project 2: E-Commerce Website -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">E-Commerce Website</h3>
                 <div>
                   <p class="mb-4">
-                    In this project, I used javascript to build the backend of a
+                    In this project, I used JavaScript to build the backend of a
                     simple working e-commerce site. It includes login and
                     signup, viewing products, placing an order etc. Currently
                     working on the frontend to make this a full stack project.
-                    Made use of express.js, node.js & mongDB
+                    Made use of Express.js, Node.js & MongoDB.
                   </p>
                 </div>
                 <a
@@ -221,7 +253,7 @@
               </div>
             </div>
           </div>
-          <!-- /END Project -->
+          <!-- /END Project 2 -->
         </div>
       </div>
     </section>
@@ -284,7 +316,6 @@
         </p>
       </div>
     </footer>
-    <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
   </body>
