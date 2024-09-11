@@ -1,1 +1,1 @@
-# Prince Donkor personal Portfolio
+# Prince Donkor's Personal Portfolio
